@@ -104,10 +104,10 @@ body{
     margin-top: -6px;
 }
 
-.wheather
+/* .wheather
 {
-    display: none;
-}
+    display: none; */
+/* } */
 .error
 {
     text-align: left;
@@ -115,4 +115,34 @@ body{
     font-size: 14px;
     margin-top: 10px;
     display: none;
+}
+
+
+
+
+
+@media (max-width:500px) {
+    .Search{
+        /* flex-direction: column; */
+        align-items: stretch;
+    }
+    .Search img {
+     width: 14px;   
+    }
+    .Search input{
+    width: 30%;
+    font-size: 18px;
+    }
+    .Search button
+    {
+        height: 50px;
+        width: 50;
+    }
+    .details{
+        flex-direction: column;
+    }
+    .col{
+        margin-top: 3rem;
+    }
+
 }
